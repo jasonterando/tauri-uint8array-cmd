@@ -33,14 +33,5 @@
     ]
   },
   "plugins": {
-    "fs": {
-      "scope": {
-        "allow": [
-          "$HOME",
-          "$HOME/*"
-        ]
-      },
-      "requireLiteralLeadingDot": false
-    }
   }      
 }
