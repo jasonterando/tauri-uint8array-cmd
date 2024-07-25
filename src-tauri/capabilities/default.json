@@ -6,21 +6,10 @@
   "permissions": [
     {
       "identifier": "fs:scope",
-      "allow": [{ "path": "$HOME" }, { "path": "$HOME/**" }],
-      "requireLiteralLeadingDot": false
+      "allow": [{ "path": "$HOME" }, { "path": "$HOME/**" }]
     },
-    "path:default",
-    "event:default",
-    "window:default",
-    "app:default",
-    "image:default",
-    "resources:default",
-    "menu:default",
-    "tray:default",
-    "shell:allow-open",
-    "fs:read-dirs",
-    "fs:allow-home-read",
-    "fs:allow-home-read-recursive",
-    "fs:allow-exists"
+    "fs:allow-exists",
+    "path:allow-resolve-directory",
+    "path:allow-join"
   ]
 }

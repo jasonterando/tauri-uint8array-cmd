@@ -3156,8 +3156,7 @@ dependencies = [
 [[package]]
 name = "tauri-plugin-fs"
 version = "2.0.0-beta.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "461853268fe115ca19ee21e5986d505944f0b826048fe1bd726d74753fdf1df6"
+source = "git+https://github.com/tauri-apps/plugins-workspace?branch=fix/v2/fs-leading-dot#0e545f749824c876fab4d9e3bd941c6b35f80cc4"
 dependencies = [
  "anyhow",
  "glob",
